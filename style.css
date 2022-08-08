@@ -1,0 +1,48 @@
+@import url('<link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">');
+body{
+    background:pink;
+    font-family: 'Redressed',  !important;
+    font-size: 20px !important;
+    background: white ;
+  }
+  ul{
+   
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    padding: 15px;
+  }
+  
+  ul li{
+    padding: 7px;
+  }
+  h1{
+    color: #bb1c07;
+    font-size: 50px !important;
+  }
+  n{
+    display: inline-block;
+  }
+  input[type=button]{
+    font-size:small;
+    padding: 10px;
+    background-color: transparent;
+    border: 2px solid green;
+    border-radius: 40px;
+  }
+  input[type=button]{
+    color: black;
+    background-color: rgb(192, 201, 255);
+    padding: 15px;
+    cursor: pointer;
+  }
+  @media screen and (min-width:1020px) {
+  ul{
+    width:40rem;
+  }
+  input[type=button]{
+    font-size:large;
+    padding: 12px;
+  }
+  }
